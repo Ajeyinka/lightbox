@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LightBox</title>
+</head>
+<body>
+
+    <nav class="navbar">
+      <div class="brand-title">
+         Light Box
+      </div>
+      <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </a>
+
+      <div class="navbar-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Learn</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="portfolio">
+        <div class="portfolio__item">
+            <img src="https://unsplash.it/300?image=1080" alt="port-img">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Here is the Title</h3>
+                <a href="#portfolio-1" class="button">More Info</a>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="https://unsplash.it/300?image=1074" alt="port-img">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Here is the Title</h3>
+                <a href="#portfolio-2" class="button">More Info</a>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="https://unsplash.it/300?image=1070" alt="port-img">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Here is the Title</h3>
+                <a href="#portfolio-3" class="button">More Info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio__lightboxes">
+
+
+        <div id="portfolio-1"  class="portfolio_lightbox">
+            <div class="portfolio_lighbox_content">
+                <a href="#" class="close"></a>
+                <img src="https://unsplash.it/900/400?image=1080">
+                <h3 class="portfolio_lightbox__title">
+                    This is the Light box title
+                </h3>
+                <p class="portfolio_lightbox_body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam nobis id tempora illum eveniet fugit corrupti provident exercitationem, ipsam officiis quasi deserunt, vel a qui sequi. Assumenda, impedit! Magni, doloribus.
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <div id="portfolio-2"  class="portfolio_lightbox">
+            <div class="portfolio_lighbox_content">
+                <a href="#" class="close"></a>
+                <img src="https://unsplash.it/900/400?image=1074">
+                <h3 class="portfolio_lightbox__title">
+                    This is the Light box title
+                </h3>
+                <p class="portfolio_lightbox_body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam nobis id tempora illum eveniet fugit corrupti provident exercitationem, ipsam officiis quasi deserunt, vel a qui sequi. Assumenda, impedit! Magni, doloribus.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div id="portfolio-3" class="portfolio_lightbox">
+            <div class="portfolio_lighbox_content">
+                <a href="#" class="close"></a>
+                <img src="https://unsplash.it/900/400?image=1070">
+                <h3 class="portfolio_lightbox__title">
+                    This is the Light box title
+                </h3>
+                <p class="portfolio_lightbox_body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam nobis id tempora illum eveniet fugit corrupti provident exercitationem, ipsam officiis quasi deserunt, vel a qui sequi. Assumenda, impedit! Magni, doloribus.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
